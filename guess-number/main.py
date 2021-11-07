@@ -37,7 +37,7 @@ try:
     guess_number=GuessNumber()
     guess_number.guess(10)
     while True:
-        again=input('you want to paly again ')
+        again=input('you want to paly again yes / no ')
         if again == 'yes':
             guess_number.guess(10)
         else:
